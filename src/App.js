@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import store from './redux/Store';
+import { Provider } from 'react-redux';
+import ComponentA from './components/ComponentA';
 
 function App() {
   return (
